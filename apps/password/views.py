@@ -6,7 +6,7 @@ from django.shortcuts import render, HttpResponse, redirect
 import random
 def index(request):
     response = "Hello, I am your first request!"
-    chars = 'abcdefghijklmnopqrstuvwxyz123456789ABCDEFGHIJKLMNOPQRSTUVWXVYZ'
+    chars = 'abcdefghijklmnopqrstuvwxyz123456789ABCDEFGHIJKLMNOPQRSTUVWXVYZ!@#$%^&*'
     length = input('password length?')
     length = int(length)
     numberOfPasswords = input('Number of passwords?')
